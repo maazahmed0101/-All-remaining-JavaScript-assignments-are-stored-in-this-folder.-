@@ -6,23 +6,139 @@
     <title>Document</title>
 </head>
 <style>
-    *{
-        margin: 0%;
+   * {
+       margin: 0%;
         padding: 0%;
-    }
-    button{
-        background-color: orange;
+     } 
+    .ok{
+        display: flex;
         border-style: dashed;
-        margin-left: 30%;
-        padding-left: 30%;
-
+        background: linear-gradient(to bottom, red,yellow, green);
+        /* margin-left: 30%;
+        padding-left: 30%; */
+        margin-top: 30px;
+        height: 100px;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        margin: auto;
+        margin-bottom: 5px;
+        text-shadow: red green;
+        text-decoration: wavy;
+        border-bottom-right-radius: 30px;
+        border-bottom-left-radius: 30px;
+        font-size: 50px;
+    }
+   
+    .IMG{
+        display: grid;
+        grid-template-columns: repeat(16,1fr);
+        margin-right: 50px;
+        gap: 10px;
+    }
+    /* .IMG img{
+        grid-column: 4/5;
+    } */
+    .one{
+        grid-column: 1/4;
+        margin-right: 10px;
+        border-radius: 12px;
+        margin-left: 2px;
+    }
+    .two{
+        grid-column: 4/6;
+        border-radius: 12px;
     }
 </style>
 <body>
     <div class="main">
         <div class="child">
-            <button></button>
+            <button onclick="fun()" class="ok">Click TO Check The Result oF Alert</button>
+
         </div>
+        <div class="IMG">
+            <img src="iphone-se-2022-review.jpg" alt="img-error" width="390px" class="one" onclick="alert('thanks-for-prtchasing\nThe Iphone New MOdel')" height="399px">
+            <img src="SE-IMG2.jpg" alt="browser-error" width="390px". class="two" onclick="alert('thanks-for-perchasing\nThe IPHONE')" height="400px">
+            <img src="iphones.jpg" alt="dont_error" onmouseover="this.src = 'samsung.jpg '" onmouseout="this.src='iphones.jpg'" width="400px">
+            <img src="ok.jpg" alt="ok" onmouseover="this.src = 'iphones.jpg'" onmouseout="src ='ok.jpg'" width="390px">
+                </div>
+        <div class="name">
+         <table border="1">
+           <tr>
+            <th> &nbsp index &nbsp </th>
+            <th> &nbsp  &nbsp name &nbsp  &nbsp </th>
+            <th> &nbsp  &nbsp class &nbsp  &nbsp </th>
+            <th> &nbsp  &nbsp erase option &nbsp  &nbsp </th>
+           </tr>
+           <tr>
+            <td>&nbsp  0</td>
+            <td>i phone</td>
+            <td>10</td>
+            <td><button onclick="fun2(this)">ok</button></td>
+           </tr>
+            <tr>
+            <td>&nbsp  1</td>
+            <td>jado</td>
+            <td>10</td>
+            <td><button onclick="fun2(this)">ok</button></td>
+           </tr>
+            <tr>
+            <td>&nbsp  2</td>
+            <td>jadogar</td>
+            <td>10</td>
+            <td><button onclick="fun2(this)">ok</button></td>
+           </tr>
+            <tr>
+            <td>&nbsp  3</td>
+            <td>jokar</td>
+            <td>10</td>
+            <td><button onclick="fun2(this)">ok</button></td>
+           </tr>
+            <tr>
+            <td>&nbsp  4</td>
+            <td>donkey</td>
+            <td>10</td>
+            <td><button onclick="fun2(this)">ok</button></td>
+           </tr>
+            <tr>
+            <td>&nbsp  5</td>
+            <td>donkey</td>
+            <td>10</td>
+            <td><button onclick="fun2(this)">ok</button></td>
+           </tr>
+           <tr>
+            <td>&nbsp  6</td>
+            <td>jado</td>
+            <td>10</td>
+            <td><button onclick="fun2(this)">ok</button></td>
+           </tr>
+            <tr>
+            <td>&nbsp  7</td>
+            <td>jadogar</td>
+            <td>10</td>
+            <td><button onclick="fun2(this)">ok</button></td>
+           </tr>
+            <tr>
+            <td>&nbsp  8</td>
+            <td>jokar</td>
+            <td>10</td>
+            <td><button onclick="fun2(this)">ok</button></td>
+           </tr>
+            <tr>
+            <td>&nbsp  9</td>
+            <td>donkey</td>
+            <td>10</td>
+            <td><button onclick="fun2(this)">ok</button></td>
+           </tr>
+            <tr>
+            <td>&nbsp  10</td>
+            <td>donkey</td>
+            <td>10</td>
+            <td><button onclick="fun2(this)">ok</button></td>
+           </tr>
+         </table>
+        </div>  
     </div>
+    <script src="app.js"></script>
 </body>
 </html>
