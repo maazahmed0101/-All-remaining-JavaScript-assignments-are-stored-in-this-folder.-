@@ -14,3 +14,9 @@ function decrese(){
     count--;
     document.getElementById('number').innerText = count;
 }
+
+let num3 = 0;
+let num1 = ()=>{
+    num3++;
+    document.getElementById('ok').innerText = num3;
+}
