@@ -1,12 +1,13 @@
-// // quection 1
-// let num = 3
-// let num2 = 3;
-// let results = []
+// quection 1
+let num = 3
+let num2 = 3;
+let results = []
 
-// for(let i = num ; i <= num2 ; i++){
-//     results = num * num2
-//     console.log(results)
-// }
+for(let i = num ; i < num2 ; i++){
+    results = num * num2
+}
+    console.log(results)
+    console.log('ok')
 
 // // quection-2;
 
